@@ -12,7 +12,7 @@ export const postType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'slug',
+      name: 'slug', // slug will be used as a uniques identifier
       type: 'slug',
       options: {
         source: 'title',
